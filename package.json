@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node binance_limit.js"
   },
   "keywords": [],
   "author": "",

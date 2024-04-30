@@ -4,7 +4,7 @@ require('dotenv').config();
 const axios = require("axios")
 
 const BASE_URL = 'https://api.binance.com';
-const PAIR = 'TNSRUSDT';
+const PAIR = 'REZUSDT';
 // const AMOUNT_USDT = "45";
 const LISTING_TIME = 1714478400000 - 310; // CHECK MEE
 
@@ -66,8 +66,8 @@ const buy = async (currentTime) => {
         symbol: PAIR,
         side: "BUY",
         type:"LIMIT",
-        price: "0.8",
-        quantity: "24",
+        price: "0.15",
+        quantity: "130",
         timeInForce: "GTC"
     }
 

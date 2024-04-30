@@ -6,7 +6,7 @@ const axios = require("axios")
 const BASE_URL = 'https://api.binance.com';
 const PAIR = 'TNSRUSDT';
 // const AMOUNT_USDT = "45";
-const LISTING_TIME = 1714416780000; // CHECK MEE
+const LISTING_TIME = 1714468620000; // CHECK MEE
 
 
 const queryString = (obj) => {
@@ -67,7 +67,7 @@ const buy = async (currentTime) => {
         side: "BUY",
         type:"LIMIT",
         price: "0.8",
-        quantity: "56",
+        quantity: "24",
         timeInForce: "GTC"
     }
 
